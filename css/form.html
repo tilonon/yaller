@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Formulaire de réservation de transport</title>
+	<style>
+		form {
+			width: 500px;
+			margin: auto;
+			padding: 20px;
+			border: 1px solid #ccc;
+			border-radius: 10px;
+		}
+		
+		label {
+			display: block;
+			margin-bottom: 10px;
+			font-weight: bold;
+		}
+		
+		select {
+			width: 100%;
+			padding: 5px;
+			border: 1px solid #ccc;
+			border-radius: 5px;
+			margin-bottom: 20px;
+		}
+		
+		.checkboxes {
+			display: flex;
+			align-items: center;
+			margin-bottom: 20px;
+		}
+		
+		.checkboxes label {
+			margin-right: 10px;
+		}
+		
+		.btn {
+			background-color: #4CAF50;
+			color: white;
+			padding: 10px 20px;
+			border: none;
+			border-radius: 5px;
+			cursor: pointer;
+			font-size: 16px;
+			margin-top: 20px;
+		}
+		
+		.btn:hover {
+			background-color: #3e8e41;
+		}
+	</style>
+</head>
+<body>
+	<form>
+		<label for="localisation">Localisation :</label>
+		<select id="localisation" name="localisation">
+			<option value="">--Choisir une localisation--</option>
+			<option value="Abidjan">Abidjan</option>
+			<option value="Bouaké">Bouaké</option>
+			<option value="Yamoussoukro">Yamoussoukro</option>
+			<option value="Korhogo">Korhogo</option>
+		</select>
+		
+		<label for="destination">Destination :</label>
+		<select id="destination" name="destination">
+			<option value="">--Choisir une destination--</option>
+			<option value="Abidjan">Abidjan</option>
+			<option value="Bouaké">Bouaké</option>
+			<option value="Yamoussoukro">Yamoussoukro</option>
+			<option value="Korhogo">Korhogo</option>
+		</select>
+		
+		<div class="checkboxes">
+			<label for="bus"><input type="checkbox" id="bus" name="transport" value="bus">Bus <span><img src="bus.png" alt=""></span></label>
+			<label for="gbaka"><input type="checkbox" id="gbaka" name="transport" value="gbaka">Gbaka</label>
+			<label for="warren"><input type="checkbox" id="warren" name="transport" value="warren">Warren</label>
+		</div>
+		
+		<input type="submit" value="Y-ALLER" class="btn">
+	</form>
+</body>
+</html>
