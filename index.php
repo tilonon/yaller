@@ -103,7 +103,7 @@
             <div class="row">
                 <div class="col-md-3 col-sm-10 col-xs-10">
                     <div class="site-logo pd-16">
-                        <a href=""><img src="assets/images/boat-logo-two.png" alt="logo" /></a>
+                        <a href=""  ><h2>Y-ALLER</h2></a>
                     </div><!-- /.logo -->
                 </div><!-- /.col-md-3 -->
                 <div class="col-md-9 col-sm-2 col-xs-2 pd-right-0">
